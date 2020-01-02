@@ -419,8 +419,12 @@
   border-radius: 3px;
   background: #FFF;
   cursor: default;
-  -webkit-box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
-          box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+  -webkit-box-shadow: inset 0 0 1px #FFF,
+ inset 0 1px 7px #EBEBEB,
+ 0 3px 6px -3px #BBB;
+          box-shadow: inset 0 0 1px #FFF,
+ inset 0 1px 7px #EBEBEB,
+ 0 3px 6px -3px #BBB;
   -webkit-transition: 300ms ease 0s;
   -moz-transition: 300ms ease 0s;
   -ms-transition: 300ms ease 0s;
@@ -7268,4 +7272,35 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0;
+}
+
+.button-container .btn-round {
+  background-size: 100% 200%;
+  background-position: bottom;
+    transition:all 0.5s ease;
+}
+.button-container .medium {
+  background-image: linear-gradient(to bottom, rgb(15, 14, 14) 50%, transparent 50%);
+}
+
+.button-container .so {
+  background-image: linear-gradient(to bottom, rgb(224, 137, 79) 50%, transparent 50%);
+}
+
+.button-container .github {
+  background-image: linear-gradient(to bottom, rgb(39, 37, 37) 50%, transparent 50%);
+}
+
+.button-container .twitter {
+  background-image: linear-gradient(to bottom, rgb(18, 184, 235) 50%, transparent 50%);
+}
+.button-container .instagram {
+  background-image: linear-gradient(to bottom, rgb(139, 43, 111) 50%, transparent 50%);
+}
+.button-container .facebook {
+  background-image: linear-gradient(to bottom, rgb(31, 89, 197) 50%, transparent 50%);
+}
+
+.button-container .btn-round:hover {
+  background-position:top;
 }
